@@ -7,16 +7,45 @@
 </head>
 <body>
     <!-- Colspan & Rawspan Attributes in HTML -->
-     <table border="1">
+     
+    <!-- Table Creation -->
+    <table border="2"> 
+        <!-- Here use Border which is part of CSS  -->
+         <!-- We learn in next step -->
+
+        <caption>Student Details </caption>
         <tr>
-            <th>Employee ID</th>
-            <th>Employee Name</th>
+            <th rowspan="2">Student Name</th>
+            <!-- Here the rowspan -->
+            <th colspan="2">MMICT&BM(MCA)</th>
+            <!-- Here the colspan -->
         </tr>
-        <!-- Insert table data of 5 record. -->
-         <tr>
+        <tr>
+            <th>Class</th>
+            <th>Roll No.</th>
+        </tr>
+        <!-- Insert Data -->
+        <tr>
+            <td>Pratipal Kumar Singh</td>
+            <td>BCA 3rd Sem.</td>
             <td>1323607</td>
-            <td>Dear Pratipal</td>
-         </tr>
-     </table>
+        </tr>
+
+        <!-- Insert Name Shani Raj Class BCA 3rd Sem & Roll No. 1323583 -->
+        <tr>
+            <td>Shani Raj</td>
+            <td>BCA 3rd Sem.</td>
+            <td>1323583</td>
+        </tr>
+
+        <!-- iNSERT 2ND Data -->
+        <tr>
+            <td>Naveen Kumar Thakur</td>
+            <td>BCA 3rd Sem.</td>
+            <td>1323607</td>
+        </tr>
+    </table>
+
+
 </body>
 </html>
