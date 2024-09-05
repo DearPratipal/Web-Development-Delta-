@@ -7,6 +7,27 @@
 </head>
 <body>
     <!-- Learn about Range Input Element  -->
+     <input type="range" id="myRange" name="points" min="0"
+     max="100" value="50">
+     <!-- Define name when select the value is  -->
+
+
+    <form action="/server">
+     <!-- Delta Course -->
+      <div>
+        <label for="vol">Select a value between 0 and 100:</label>
+        <input type="range" id="vol" min="0" max="100" name="vol" value="12">
+        <button>Submit Volumn</button>
+      </div><hr>
+
+
+      <!-- If you want a step valumn put like 10, 20, 30 or 5, 10, 15 than use step attributes -->
+       <div>
+        <label for="vol2">Select Range Step</label>
+        <input type="range" id="vol2" min="0" max="100" step="10" name="vol2">
+        <button type="submit">Submit</button>
+       </div>
+    </form>
      
 </body>
 </html>
