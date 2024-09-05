@@ -3,10 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice QS </title>
+    <title>Practice QS 9</title>
 </head>
 <body>
-    <!-- Practice QS in HTML Level 3 -->
+    <!-- Practice QS 9in HTML Level 3 -->
+     <img src="/_Source_Content/PracticeQS9.png" alt="">
      
+     <h2>Registration Form</h2>
+     <form action="/server">
+        <input type="text" id="fname" name="fname" placeholder="First Name">
+        <input type="text" name="lname" id="lname" placeholder="Last Name"><br>
+        
+        <div>
+            <label for="gender">Please select gender:</label>
+            <select name="gender" id="gender">
+                <option value="male" name="gender" selected>Male</option>
+                <option value="female" name="gender">Female</option>
+                <option value="others" name="gender">Others</option>
+            </select>
+        </div>
+
+        <div>
+            Do you agree to all terms of service?
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label for="checkbox">Yes, I agree</label>
+        </div>
+        <button type="submit">Resister</button>
+        
+     </form>
 </body>
 </html>
