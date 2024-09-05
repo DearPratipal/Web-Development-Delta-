@@ -7,5 +7,98 @@
 </head>
 <body>
     <!-- Make the Practice for Given Questions -->
+     Q.1 Make Table Like This <img src="/_Source_Content/AssignQS1.png" alt="Assignment Q1">
+     <table border="2">
+        <Caption>Student Information</Caption>
+        <tr>
+            <th rowspan="6">Info</td>
+            <td rowspan="2">Name</td>
+            <td colspan="2">Address</td>
+        </tr>
+
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+
+     </table><hr>
+
+     QS.2 Recreate the following form using HTML:
+     <form action="/Server">
+        <label for="flname">Name:</label>
+        <input type="text" id="fullname" name="flname"><br>
+
+        <label for="sex">Sex:</label>
+        <input type="radio" id="gender" name="sex" value="Male">Male
+        <input type="radio" id="gender" name="sex" value="Female">Female
+        <br>
+
+        <label for="nation">Country</label>
+        <select name="nation" id="country">
+            <option>Select an option</option>
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Bhutan">Bhutan</option>
+        </select>
+        <br>
+
+        <label for="feedback">Massage:</label><br>
+        <textarea name="feedback" id="massage" cols="30" rows="4">Thank You!!</textarea><br>
+
+        <input type="checkbox" name="agree" id="subscribe">
+        <label for="agree">Subscribe?</label><br>
+
+        <button type="submit">Submit</button>
+     </form><hr>
+
+
+
+     <h2>Feedback Form</h2>
+     <form action="/server">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Write your name">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Write your email">
+        <br>
+
+        <label for="feedback">Massage:</label><br>
+        <textarea name="feedback" id="feedback" name="feedback" rows="4" cols="30">Thank You!</textarea>
+        <br>
+
+        <label for="rating">Rate us out of 5</label><br>
+        <input type="radio" id="rate1" name="rating" value="1">1 <br>
+        <input type="radio" id="rate1" name="rating" value="2">2 <br>
+        <input type="radio" id="rate1" name="rating" value="3">3 <br>
+        <input type="radio" id="rate1" name="rating" value="4">4 <br>
+        <input type="radio" id="rate1" name="rating" value="5">5 <br>
+
+        <button type="submit">Send you massage!</button>
+     </form>
 </body>
 </html>
