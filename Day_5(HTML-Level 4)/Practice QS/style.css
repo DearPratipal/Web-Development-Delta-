@@ -1,0 +1,29 @@
+/* Color Property */
+
+
+/* Used to set the color of foreground */
+
+/* color: purple;  
+color: #800080; 
+color: rgb(128, 0, 128);
+color: hsl(270, 100%, 50%);
+color: hsls(30, 100%, 50%, .3);
+color: hvb();
+
+*/
+
+/* One color used foreground or background */
+
+h2{
+    color: orange;
+}
+
+p{
+    color: white;
+    background-color: black
+}
+
+button{
+    color: white;
+    background-color: blue;
+}
