@@ -1,0 +1,27 @@
+/* Color Property */
+
+
+/* Used to set the color of foreground */
+
+/* color: purple;  
+color: #800080; 
+color: rgb(128, 0, 128);
+color: hsl(270, 100%, 50%);
+color: hsls(30, 100%, 50%, .3);
+color: hvb();
+
+*/
+
+/* One color used foreground or background */
+
+h1{
+    color: blue;
+}
+
+p{
+    color: red;
+}
+
+button{
+    color: gold;
+}
