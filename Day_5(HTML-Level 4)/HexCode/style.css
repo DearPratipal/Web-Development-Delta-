@@ -1,0 +1,9 @@
+/* Hex Code  */
+
+/* 0x00-0x7F: ASCII */
+/* 0x80-0x9F: Control Characters */
+/* 0xA0-0xFF: Extended ASCII */
+
+h1{
+    color: #FF00FF;
+}

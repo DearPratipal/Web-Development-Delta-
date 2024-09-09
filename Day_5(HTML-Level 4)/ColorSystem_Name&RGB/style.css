@@ -3,6 +3,16 @@
 /* Each browser recognizes around 140 named colors. */
 /* Eg- red, blue, pink, purple, magenta, teal etc. */
 
+h3{
+    color: rgb(0,255,0);
+}
 
+p{
+    color: rgb(255,0,0);
+}
 
-
+div{
+    color: rgb(0,0,255);
+    background-color: rgb(255, 0, 152);
+}
+/* using color picker on google for RGB Value */
