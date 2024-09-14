@@ -1,0 +1,24 @@
+/* Color Property */
+
+
+/* Used to set the color of foreground */
+
+/* color: purple;  
+color: #800080; 
+color: rgb(128, 0, 128);
+color: hsl(270, 100%, 50%);
+color: hsls(30, 100%, 50%, .3);
+color: hvb();
+
+*/
+
+/* Write the hexcode equivate to rgb(255,255,255) and tell What color is it */
+
+p{
+    color: #FFFFFF;
+    
+}
+/* The color is white.
+The hexcode #FFFFFF is the equivate to rgb(255,255,255) */
+
+/* Write the best possible rgb and hexcodes for following Color  */
