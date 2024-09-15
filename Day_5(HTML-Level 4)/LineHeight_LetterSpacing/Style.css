@@ -7,19 +7,10 @@ letter-spacing
 font-size
 */
 
-/* All form apply on index2 file */
-h1{
-    text-align: center;
-    width: 50%;
-    
-}
-h2{
-    text-align: right;
-
+body{
+    line-height: 2.5;
 }
 
-p{
-    text-align:center;
+#pa{
+    line-height: normal;
 }
-
-

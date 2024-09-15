@@ -17,3 +17,19 @@ h2{
 p{
     font-weight: bold;
 }
+
+ul{
+    font-weight: bolder;
+}
+
+OL{
+    text-decoration: double line-through;
+}
+
+H3{
+    text-decoration: overline;
+}
+
+a{
+    text-decoration: none;
+}
