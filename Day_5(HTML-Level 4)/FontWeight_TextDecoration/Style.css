@@ -1,0 +1,19 @@
+/* 
+text-align
+text-weight
+text-decoration
+line-height
+letter-spacing
+font-size
+*/
+
+/* Font Weight */
+
+/*  */
+h2{
+    font-weight: normal;
+}
+/*  */
+p{
+    font-weight: bold;
+}
