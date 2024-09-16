@@ -8,18 +8,30 @@ font-size
 */
 
 /* All form apply on index2 file */
-h1{
-    text-align: center;
-    width: 50%;
-    
-}
-h2{
-    text-align: right;
+/* Font-Size unit in CSS */
 
-}
+/* 
+Absolute Value :    Relative
+px             :    %
+pt             :    em
+pc             :    rem
+cm             :    ch
+mm             :    vh
+in             :    vw + many more 
+
+*/
+
+/* Pixel(px): most commonly used absolute unit. */
+
+/* 96px= 1 inch */
+
+/* not suitable for responsive websites */
 
 p{
-    text-align:center;
+    font-size: 20px;
+    font-weight: 700;
 }
 
-
+mark{
+    background-color: rgb(157, 157, 240);
+}

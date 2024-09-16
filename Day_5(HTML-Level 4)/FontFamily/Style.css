@@ -11,15 +11,23 @@ font-size
 h1{
     text-align: center;
     width: 50%;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 h2{
     text-align: right;
-
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 p{
     text-align:center;
+
 }
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
 
 
