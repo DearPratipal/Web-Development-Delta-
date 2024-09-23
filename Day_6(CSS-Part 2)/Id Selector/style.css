@@ -2,3 +2,21 @@
 
 /* before we id selector */
 
+/* use with "#" we need id for this  */
+
+/* Selects an element based on the value of the element's id attributes. */
+
+#myId{
+    background-color: blue;
+    color: black;
+}
+
+#login,#signup{
+    background-color: blue;
+    color: black;
+}
+
+#signup{
+    background-color: red;
+    color: white;
+}
