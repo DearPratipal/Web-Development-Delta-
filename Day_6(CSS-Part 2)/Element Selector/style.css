@@ -1,0 +1,20 @@
+/* Learn Selector */
+
+/* before we use element selector */
+
+/* h1{
+    color: blue;
+}
+
+Here is H1 is element selector */
+
+h1, h3{
+    color: blue;
+    color: #b92b27;
+}
+
+/* Multiple Element use "," for it. */
+
+button{
+    background-color: #4CAF50;
+}

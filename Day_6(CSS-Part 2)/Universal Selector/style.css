@@ -1,0 +1,15 @@
+/* Learn Selector */
+
+/* before we use element selector */
+
+/* h1{
+    color: blue;
+}
+
+Here is H1 is element selector */
+
+/* Basic is the HTML Selector is universal selecor  " * : astric" */
+*{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
