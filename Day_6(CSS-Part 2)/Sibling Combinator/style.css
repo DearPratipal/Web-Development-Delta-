@@ -2,14 +2,11 @@
 
 /* Learn Class Selector */
 
-/* using class selector "." also class selection */
+/* Sibling Combinator  */
 
-.a{
-    color: red;
-}
-
-.upvote{
+p + h3{
     color: blue;
-    background-color: red;
-    text-decoration: dashed;
 }
+
+/* Heading 3 that comes immediately after any paragraph */
+
