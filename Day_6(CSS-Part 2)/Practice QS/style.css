@@ -1,0 +1,8 @@
+/* Practice Question 1 */
+
+/* Q. Set the color paragraph inside divs with the id "myId" gree. */
+
+#myId{
+    color: green;
+}
+

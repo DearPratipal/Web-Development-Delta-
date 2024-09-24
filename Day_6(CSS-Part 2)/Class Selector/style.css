@@ -2,3 +2,14 @@
 
 /* Learn Class Selector */
 
+/* using class selector "." also class selection */
+
+.a{
+    color: red;
+}
+
+.upvote{
+    color: blue;
+    background-color: red;
+    text-decoration: dashed;
+}
