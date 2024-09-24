@@ -1,0 +1,32 @@
+/* Learn Selector */
+
+/* Descendant Selector */
+
+/* Select all paragraph inside divs */
+
+/* also known as heriarchy selector or child selector */
+
+div p{
+    color: blue;
+    /* property: value; */
+}
+
+/* inside nav anchor */
+nav a{
+    color: red;
+}
+
+/* inside paragraph anchor */
+p a{
+    color: green;
+}
+
+/* use class child */
+.follow a{
+    color: yellow;
+}
+
+/* Level selct */
+nav ul li{
+    color: blue;
+}
