@@ -1,15 +1,13 @@
 /* Learn Selector */
 
-/* Learn Class Selector */
+/* Attributes Selector */
 
-/* using class selector "." also class selection */
+/*  */
 
-.a{
-    color: red;
+input[type="text"]{
+    color: green;
 }
 
-.upvote{
-    color: blue;
-    background-color: red;
-    text-decoration: dashed;
+input[type="password"]{
+    color: red;
 }

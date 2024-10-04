@@ -69,7 +69,7 @@ web-development-learning/
 To get started with this repository, clone the project using the following command:
 
 ```bash
-git clone https://github.com/yourusername/web-development-learning.git
+git clone https://github.com/dearpratipal/web-development-learning.git
 cd web-development-learning
 ```
 
@@ -108,11 +108,11 @@ Contributions are welcome! If you have any examples, projects, or improvements, 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📫 Contact
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
-- **Email**: your-email@example.com
+- **GitHub**: [DearPratipal](https://github.com/dearpratipal)
+- **Email**: kumarpratipal123@gmail.com
 
 Happy Coding! 😊
 
 ---
 
-Feel free to customize the placeholders (`yourusername`, `your-email@example.com`, etc.) with your details. This template will give a clear overview of your project to other developers and collaborators!
+Feel free to customize the placeholders (`DearPrtipal`, `kumarpratipal123@gmail.com`, etc.) with your details. This template will give a clear overview of your project to other developers and collaborators!

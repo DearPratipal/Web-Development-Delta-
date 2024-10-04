@@ -1,15 +1,10 @@
 /* Learn Selector */
 
-/* Learn Class Selector */
+/* Child Combinator */
 
-/* using class selector "." also class selection */
+/* Selects all buttons which are direct children of spans */
 
-.a{
-    color: red;
-}
-
-.upvote{
-    color: blue;
-    background-color: red;
-    text-decoration: dashed;
+div>input {
+    background-color: navajowhite;
+    font-weight: bold;
 }
