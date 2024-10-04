@@ -1,0 +1,36 @@
+/* Learn about PSudo Code. */
+
+/* A Keyword added to a selector that specifies a special state */
+
+/* Hover
+active
+checked
+nth-of-type
+ */
+
+button:hover{
+    color: red;
+    background-color: green;
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+
+button:active{
+    background-color: black;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2){
+    background-color: blue;
+}
