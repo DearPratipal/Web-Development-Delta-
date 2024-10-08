@@ -1,0 +1,34 @@
+/* Inheritence in CSS, Mathod!! */
+/* Represent the Parents and Child relation in CSS */
+
+div {
+    background-color: red;
+}
+
+p {
+    background-color: blue;
+}
+
+/* if here level competition. */
+/* if top level is already set than inheritence by parents. */
+
+/* and input box is bydefault set as non-inherite*/
+/* if you want than set 
+input {
+background-color: inherit
+}
+ */
+ /* also button is default. */
+
+button {
+    background-color: inherit;
+}
+ /* Set the hover in button */
+button:hover{
+    background-color: yellow;
+}
+
+
+/* Some properties not inherit like,
+width, height, border, etc...
+ */

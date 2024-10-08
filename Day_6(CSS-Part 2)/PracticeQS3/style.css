@@ -1,0 +1,34 @@
+/* Implement the following CSS for given html document. */
+
+/* 
+Set font family of entire document to courir new.
+set text color for all h1 heading to #1b74e4.
+Set background color of search button to black & text to white.
+Set background color of login & signup button to aqua.
+
+*/
+
+* {
+    font-family: 'Courier New', monospace;
+}
+h1 {
+    color: #1b74e4;
+    }
+
+.button {
+    background-color: black;
+    color: white;
+    }
+
+/* #login, #register {
+    background-color: aqua;
+} */
+
+.userbtn {
+    background-color: aqua;
+    }
+
+#searchbtn{
+    background-color: black;
+    color: white;
+}

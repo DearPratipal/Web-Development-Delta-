@@ -3,12 +3,12 @@
 /* The CSS cascade algorithm's job is to select
 CSS declaraion in order to determine the correct values fro CSS prperties. */
 
-h2{
+h3{
     background-color: red;
 
 }
 
-h2{
+h3{
     background-color: blue;
 }
 

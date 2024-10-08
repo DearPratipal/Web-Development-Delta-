@@ -1,0 +1,28 @@
+/* Important tag use! */
+
+/* This tag use for define it must important. */
+
+/* which define for parmanent define. */
+/* #define IMPORTANT 1
+ which define for temporary define.
+#define TEMPORARY 2 */
+
+h1 {
+    background-color: blue !important;
+}
+
+h1{
+    background-color: red;
+}
+
+h3 {
+    color: green;
+}
+
+h5 {
+    color: blue !important;
+}
+
+h5{
+    color: red;
+}
