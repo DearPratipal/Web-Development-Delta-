@@ -1,0 +1,14 @@
+/* Pseudo Elemnt like */
+
+
+h1::first-letter{
+    color: red;
+}
+
+p::first-line{
+    color: blue;
+}
+
+p::selection{
+    background-color: yellow;
+}

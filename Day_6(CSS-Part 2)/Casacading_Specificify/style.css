@@ -1,0 +1,18 @@
+/* Cascading Stylesheets. */
+
+/* The CSS cascade algorithm's job is to select
+CSS declaraion in order to determine the correct values fro CSS prperties. */
+
+h2{
+    background-color: red;
+
+}
+
+h2{
+    background-color: blue;
+}
+
+/* Algorithms say 2nd properties apply. */
+
+/* Final color is blue */
+
