@@ -1,0 +1,35 @@
+.rounded-box {
+    width: 200px;
+    height: 200px;
+    background-color: #4CAF50;
+    border-radius: 25px; /* Adjust the value to change the roundness */
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Example of different border-radius values for each corner */
+.different-rounded-box {
+    width: 200px;
+    height: 200px;
+    background-color: #2196F3;
+    border-radius: 50px 20px 10px 0; /* top-left, top-right, bottom-right, bottom-left */
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+div {
+    margin: 10px;
+    row-gap: 10px;
+}

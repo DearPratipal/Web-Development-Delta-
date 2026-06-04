@@ -1,0 +1,42 @@
+h1 {
+    /* display: inline; */
+    display: block;
+    background-color: lightgray;
+    margin: 10px;
+}
+
+p {
+    display: inline;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+span {
+    display: block;
+    background-color: lightcoral;
+    margin: 10px;
+}
+
+div {
+    display: block;
+    background-color: lightgreen;
+    margin: 10px;
+    padding: 10px;
+}
+
+span {
+    /* height: 50px; */
+    /* width: 50px; */
+    margin: 10px;
+    padding: 10px;
+}
+
+#inline-span {
+    background-color: rgb(236, 236, 22);
+    /* display: inline-block; */
+    display: inline;
+    height: 2000px; /* This will not work because inline elements do not respect height and width properties */
+    width: 500px; /* This will not work because inline elements do not respect height and width properties */
+    padding: 10px;
+    border: 2px solid black;
+}

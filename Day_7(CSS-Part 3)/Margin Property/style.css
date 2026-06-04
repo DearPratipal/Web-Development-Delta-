@@ -1,0 +1,39 @@
+/* Margin Property */
+.container {
+    margin: 20px;
+    background-color: lightblue;
+}
+
+body {
+    margin: 10px;
+    background-color: lightcoral;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.margin-shorthand {
+    margin: 10px 20px 30px 40px; /* top right bottom left */
+    background-color: lightgreen;
+}
+
+.margin-all {
+    margin: 20px;
+    background-color: lightyellow;
+}
+
+.margin-top-bottom {
+    margin: 20px 10px;
+    background-color: lightpink;
+}
+
+.margin-top-right-left {
+    margin: 20px 10px 5px;
+    background-color: lightblue;
+}
+
+.margin-top-right-bottom-left {
+    margin: 20px 10px 5px 15px;
+    background-color: rgb(43, 213, 165);
+}
